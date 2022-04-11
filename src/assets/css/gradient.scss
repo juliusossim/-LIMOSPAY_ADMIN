@@ -1,0 +1,11 @@
+@import "theme";
+.theme-bg {
+  background:
+    conic-gradient(rgb(78, 17, 70),rgb(234, 9, 241), rgb(255, 255, 255), rgb(129, 9, 199),transparent 30%),
+    radial-gradient(farthest-side at right, rgb(129, 9, 199), rgb(78, 17, 70), rgb(78, 17, 70), rgb(255, 255, 255) 94%,#0000) calc(50% - var(--s)/4) 0/calc(var(--s)/2) var(--s) !important;
+  background-repeat:no-repeat;
+}
+.bg-45-deg {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0), $theme-color-grey, rgba(84, 220, 85, 0.11), rgba(124, 0, 248, 0.02)) !important
+
+}

@@ -1,0 +1,25 @@
+.first-card {-webkit-transition: all 3s ease;
+-moz-transition: all 3s ease;
+-ms-transition: all 3s ease;
+-o-transition: all 3s ease;
+transition: all 3s ease;
+
+-moz-transform: rotate(-20deg) translateY(64px);
+-webkit-transform: rotate(-20deg) translateY(64px);
+-o-transform: rotate(-20deg) translateY(64px);
+-ms-transform: rotate(-20deg) translateY(64px);
+transform: rotate(-20deg) translateY(64px);
+}
+.last-card {
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+
+  -moz-transform: rotate(20deg) translateY(64px);
+  -webkit-transform: rotate(40deg) translateY(64px);
+  -o-transform: rotate(20deg) translateY(64px);
+  -ms-transform: rotate(20deg) translateY(64px);
+  transform: rotate(20deg) translateY(64px);
+}
