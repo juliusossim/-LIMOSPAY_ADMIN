@@ -20,7 +20,7 @@ const menuConfig = [
   },
   {
     title: 'Pages',
-    path: '/pages',
+    path: '/screens',
     icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
     children: [
       {

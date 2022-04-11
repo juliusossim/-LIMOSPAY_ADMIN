@@ -1,7 +1,7 @@
 import { Box, Button } from "@mui/material";
 import React from "react";
 import PropTypes from "prop-types";
-import UpgradeKYC from "../pages/UpgradeKYC";
+import UpgradeKYC from "../screens/UpgradeKYC";
 
 TransferLimitComponent.propTypes = {
   limit: PropTypes.number,

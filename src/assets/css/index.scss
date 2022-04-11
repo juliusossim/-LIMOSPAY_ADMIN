@@ -1177,3 +1177,18 @@ a {
   background: #F2F2F2 !important;
   border-radius: 0 0 13px 13px !important;
 }
+.blue-bg {
+  background: rgba(0, 0, 139, 0.1);
+}
+.bg-deep-blue {
+  background: #00008B !important;
+}
+.text-blue {
+  color: #00008B !important;
+
+}
+.blue-hover:hover {
+  background: #E5E5F3 !important;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1) !important;
+  color: #00008B !important;
+}

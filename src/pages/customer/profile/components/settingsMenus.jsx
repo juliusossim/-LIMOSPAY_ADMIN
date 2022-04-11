@@ -3,7 +3,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import PropTypes from "prop-types";
 import { Box } from "@mui/material";
 import UpdateAccount from "../pages/updateAccount/UpdateAccount";
-import GenerateAccountStatement from "../pages/updateAccount/pages/GenerateAccountStatement";
+import GenerateAccountStatement from "../pages/updateAccount/screens/GenerateAccountStatement";
 
 SettingsMenus.propTypes = {
   setCurrent: PropTypes.func,

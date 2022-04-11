@@ -26,7 +26,6 @@
   },
   "rules": {
     "no-shadow": 0,
-    "no-console": 0,
     "react/jsx-key": 1,
     "import/no-cycle": 0,
     "arrow-body-style": 1,
@@ -49,10 +48,8 @@
     "react/no-unescaped-entities": 0,
     "import/prefer-default-export": 0,
     "react/jsx-props-no-spreading": 0,
-    "react/jsx-filename-extension": 0,
     "react/jsx-no-useless-fragment": 0,
     "react/jsx-curly-brace-presence": 0,
-    "react/destructuring-assignment": 0,
     "import/no-extraneous-dependencies": 0,
     "react/no-unstable-nested-components": 0,
     "react/function-component-definition": 0,
@@ -69,6 +66,18 @@
         "object": true,
         "array": false
       }
-    ]
+    ],
+    "indent": ["error", 2],
+    "template-curly-spacing": ["error", "never"],
+    "no-console":"off",
+    "comma-dangle": ["error", "never"],
+    "linebreak-style": ["error", "unix"], // support LF linebreak style for linux
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/destructuring-assignment": 1,
+    "jsx-a11y/label-has-associated-control": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }]
   }
 }
