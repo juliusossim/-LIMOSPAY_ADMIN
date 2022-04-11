@@ -1,3 +1,9 @@
+import { useState } from "react";
+import { DialogActions, DialogContent, MenuItem, TextField } from "@mui/material";
+import { FormDialog } from "./modal";
+import VerifyCode from "../pages/auth/VerifyCode";
+import { LoadingButton } from "@mui/lab";
+
 export default function Wizard({steps}) {
     const [ backLoading,setBackLoading ] = useState(false)
     const [ nextLoading,setNextLoading ] = useState(false)

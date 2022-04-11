@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import KeyboardBackspaceOutlinedIcon from '@mui/icons-material/KeyboardBackspaceOutlined';
 import FileCopyOutlinedIcon from '@mui/icons-material/FileCopyOutlined';
-import KYCBox from "../components/KYCBox";
 import { copyText } from "../../../../../../utilities/stringOperations";
 
 InviteFriend.propTypes = {
